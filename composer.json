@@ -1,0 +1,25 @@
+{
+    "name": "shielda/captcha-php",
+    "description": "Official PHP SDK for Shielda Captcha (کتابخانه رسمی PHP برای شیلدا کپچا)",
+    "keywords": ["shielda", "captcha", "security", "bot-protection", "php", "arcaptcha", "recaptcha", "iran"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shielda Team",
+            "email": "support@shielda.ir",
+            "homepage": "https://shielda.ir"
+        }
+    ],
+    "require": {
+        "php": ">=7.4 || >=8.0",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Shielda\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
